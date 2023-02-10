@@ -1,0 +1,30 @@
+#NewTodo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+
+#NewTodo-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+#NewTodo-form input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-wrap:break-word;
+}
+
+#NewTodo-form select {
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}

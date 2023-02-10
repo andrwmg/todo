@@ -1,0 +1,90 @@
+.Todo { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    min-height: 60px;
+}
+
+.Edit { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    min-height: 60px;
+}
+
+.Confirm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    min-height: 60px;
+}
+
+.Complete {
+    text-decoration: line-through;
+}
+
+#Edit-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+#Edit-form input {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 1px;
+    padding-left: 5px;
+}
+
+
+
+li {
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.Todo-text {
+    cursor: pointer;
+    width: 100%;
+}
+
+.Todo-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    width:20%;
+    border-radius: 21.25px;
+}
+
+.Todo-button {
+    opacity: 0;
+    transition: all .2s;
+  }
+
+.Todo:hover .Todo-button {
+    opacity: 1;
+}
+
+.Buttons-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+select {
+    width: 27%;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}

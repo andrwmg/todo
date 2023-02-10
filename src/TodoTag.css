@@ -1,0 +1,8 @@
+.TodoTag {
+    width: 100%;
+}
+
+.active {
+    background-color: dodgerblue;
+    color: white
+}

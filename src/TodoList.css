@@ -1,0 +1,33 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 2rem 2rem 3rem;
+    width: 100%;
+    max-width: 1000px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff6666;
+    color:#fff;
+    box-shadow: -10px -10px 0px 0px rgba(100,100,100,0.1);
+}
+
+.TodoList ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.TodoList p {
+    text-align: left;
+}
+
+.TodoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: .05em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
